@@ -1,17 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import react from "react";
+import reactDom from"react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import UserAuthentication from "./userdetails/UserAuthentication.jsx";
+import MainWindow from "./homepage/MainWindow.jsx";
+import Adduser_qr from "./homepage/Adduser_qr.jsx";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const surl= process.env.SURL;
+const routes=createBrowserRouter([
+  {
+  path:"/",element:<UserAuthentication/>
+},
+{
+  path:"/timedrop/home",element:<MainWindow/>
+},
+{
+  path:"/newuser/qr/:id",element:<Adduser_qr/>
+}
+]);
+const root=reactDom.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <RouterProvider router={routes}/>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+export default surl;
