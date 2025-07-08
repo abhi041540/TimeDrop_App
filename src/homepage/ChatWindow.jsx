@@ -7,7 +7,7 @@ import axios from "axios";
 import surl from "..";
 import Ai from "./Ai";
 axios.defaults.withCredentials = true;
-var cloud=process.env.CLOUD;
+var cloud=process.env.CLOUD||"dqjorntxe";
 function ChatWindow(param) {
     var [inputtextmsg, setmsg] = useState("");
     var [st,sst]=useState(0);

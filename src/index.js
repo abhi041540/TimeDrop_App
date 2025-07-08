@@ -5,7 +5,7 @@ import UserAuthentication from "./userdetails/UserAuthentication.jsx";
 import MainWindow from "./homepage/MainWindow.jsx";
 import Adduser_qr from "./homepage/Adduser_qr.jsx";
 
-const surl= process.env.SURL;
+const surl= process.env.SURL||"https://timedrop.onrender.com";
 const routes=createBrowserRouter([
   {
   path:"/",element:<UserAuthentication/>
