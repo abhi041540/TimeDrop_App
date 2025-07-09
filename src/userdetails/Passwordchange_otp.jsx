@@ -10,7 +10,7 @@ function Passwordchange_otp() {
         document.getElementById("pcotpinput").value = "";
     }
     return (
-        <div className="pcotp" style={{ width: "100%", height: "100vh", position: "fixed", display: "flex", alignItems: "center", justifyContent: "center", visibility: "hidden" }} >
+        <div className="pcotp" style={{ width: "100%", height: "100vh", position: "fixed", display: "flex", alignItems: "center", justifyContent: "center", visibility: "hidden" ,zIndex:"500"}} >
             <form method="post" style={{ backgroundColor: "black", maxWidth: "300px", textAlign: "center", padding: "20px", borderRadius: "10px", border: "1px solid gray", position: "relative" }}>
                 <div onClick={ccw} className="contectsearchclose" style={{ position: "absolute", top: "4%", textAlign: "center", border: "2px solid white", padding: "0px 6px", borderRadius: "5px", width: "40px", right: "3%" }}>
                     <i className="ion-close-round"></i>
