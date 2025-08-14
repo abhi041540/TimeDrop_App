@@ -1,3 +1,117 @@
+# 💬 TimeDrop — Real-Time Messaging with Smart Features
+
+[🚀 Live App](https://timedrop-beryl.vercel.app/timedrop/home) • [📁 GitHub Repository](https://github.com/abhi041540/TimeDrop_App)
+
+**TimeDrop** is a full-featured, real-time messaging application built for seamless communication. It supports secure user authentication, file sharing, group creation, and even AI-powered message generation. Whether you're chatting one-on-one or in a temporary group, TimeDrop makes messaging smarter and more dynamic.
+
+---
+
+## ✨ Key Features
+
+- 🔐 **User Authentication**
+  - Login via email, unique user ID, and password
+  - Secure session management
+
+- 💬 **Real-Time Messaging**
+  - Send text, images, and files instantly
+  - Create personal or group chats
+
+- 🕒 **Temporary Groups**
+  - Create time-bound groups that auto-delete after expiry
+  - Perfect for event-based or short-term collaboration
+
+- 🧑‍🎨 **Profile Customization**
+  - Upload your own profile picture
+  - Choose from a library of avatars
+
+- 📱 **QR Code Sharing**
+  - Share your profile via QR code
+  - Friends can scan and connect instantly
+
+- 🧠 **AI Message Assistant**
+  - Use built-in AI to generate messages
+  - Powered by intelligent prompt handling
+  - Send AI-generated messages directly to friends
+
+- 🧼 **Clean UI**
+  - Minimalist design with intuitive navigation
+  - Responsive layout for mobile and desktop
+
+---
+
+## 🖼️ Visual Preview
+
+### 🧑‍🎨 Avatar Selection Window
+
+![Avatar Window](https://res.cloudinary.com/dqjorntxe/image/upload/v1755192869/dkuw6drxlcotpnlutuh2.png)
+
+Choose from a variety of avatars to personalize your profile.
+
+---
+
+### 🏠 Home Interface
+
+![Home Window 1](https://res.cloudinary.com/dqjorntxe/image/upload/v1755192844/gly1n7od0j63awpoydcj.png)  
+![Home Window 2](https://res.cloudinary.com/dqjorntxe/image/upload/v1755192884/hbmiqtnbwhrrt5hkoobu.png)
+
+Access chats, groups, and AI features from a clean dashboard.
+
+---
+
+### 💬 Chat Window
+
+![Chat Window](https://res.cloudinary.com/dqjorntxe/image/upload/v1755192852/blbqg75ntrjngmycdiug.png)
+
+Real-time messaging with support for text, files, and images.
+
+---
+
+### 🔐 Login Interface
+
+![Login Window](https://res.cloudinary.com/dqjorntxe/image/upload/v1755192863/fsrmnu7pwybmrrv75ury.png)
+
+Secure login with email, user ID, and password.
+
+---
+
+### 📱 QR Code Profile Sharing
+
+![QR Code](https://res.cloudinary.com/dqjorntxe/image/upload/v1755192857/bkgf1j2oym1f9dul4xbc.png)
+
+Share your profile via QR code for instant connection.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Technology            |
+|-------------|------------------------|
+| Frontend    | React.js, Bootstrap CSS |
+| Backend     | Node.js, Express       |
+| Realtime    | Socket.IO              |
+| AI Engine   | Custom Prompt Handler  |
+| Hosting     | Vercel                 |
+
+---
+
+## 🚀 Getting Started
+
+To run locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/abhi041540/TimeDrop_App.git
+cd TimeDrop_App
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
