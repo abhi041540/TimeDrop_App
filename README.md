@@ -1,4 +1,4 @@
-# 💬 TimeDrop — Real-Time Messaging with Smart Features
+# 💬 TimeDrop — Real-Time Messaging with Smart Features.
 
 [🚀 Live App](https://timedrop-beryl.vercel.app/timedrop/home) • [📁 GitHub Repository](https://github.com/abhi041540/TimeDrop_App)
 
